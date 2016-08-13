@@ -94,7 +94,7 @@ class Cleverbot:
     def load(self):
 
         try:
-            self.driver.get("http://cleverbot.com/") # Load the cleverbot page
+            self.driver.get("http://www.cleverbot.com/") # Load the cleverbot page
         except:
 
             print "::Error 211 : Failure to load resource" 
