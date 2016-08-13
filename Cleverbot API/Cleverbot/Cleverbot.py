@@ -79,7 +79,7 @@ class Cleverbot:
         
         try:
             if headless:
-                self.driver = webdriver.PhantomJS() # Load the phantom JS headless browser
+                self.driver = webdriver.PhantomJS('./phantomjs') # Load the phantom JS headless browser
                 self.driver.set_window_size(1200, 600) # Needs a size, this is kinda arbitrary
             else:
                 self.driver = webdriver.Firefox() # Load the firefox browser
